@@ -1,94 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Website</title>
+    <title>OMNI Financial Technologies</title>
     <style>
         /* Reset some default styles */
-        body, h1, h2, p, ul {
+        body,
+        h1,
+        h2,
+        p,
+        ul {
             margin: 0;
             padding: 0;
         }
-        
+
         /* General body styling */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
         }
-        
+
         /* Container for centering content */
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
         }
-        
+
         /* Navigation bar styling */
         nav {
             background: #333;
             color: #fff;
             padding: 10px 0;
         }
-        
+
         nav .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
+
         nav .logo a {
             color: #fff;
             text-decoration: none;
             font-size: 1.5em;
         }
-        
+
         nav .nav-links {
             list-style: none;
             display: flex;
         }
-        
+
         nav .nav-links li {
             margin-left: 20px;
         }
-        
+
         nav .nav-links a {
             color: #fff;
             text-decoration: none;
             font-size: 1.1em;
         }
-        
+
         nav .nav-links a:hover {
             text-decoration: underline;
         }
-        
+
         /* Main content styling */
         section {
             padding: 20px 0;
         }
-        
+
         section#home {
             background: #f4f4f4;
             padding: 60px 0;
             text-align: center;
         }
-        
-        section#about, section#services, section#contact {
+
+        section#about,
+        section#services,
+        section#contact {
             background: #fff;
             padding: 40px 0;
         }
 
         .disabled {
-    pointer-events: none; /* Disable clicking */
-    opacity: 0.5;         /* Make it look disabled */
-}
+            pointer-events: none;
+            /* Disable clicking */
+            opacity: 0.5;
+            /* Make it look disabled */
+        }
 
-.disabled a {
-    color: #aaa;          /* Change color to indicate disabled state */
-    text-decoration: none;
-}
+        .disabled a {
+            color: #aaa;
+            /* Change color to indicate disabled state */
+            text-decoration: none;
+        }
 
-        
+
         /* Footer styling */
         footer {
             background: #333;
@@ -99,15 +109,15 @@
             width: 100%;
             bottom: 0;
         }
-
     </style>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav>
         <div class="container">
             <div class="logo">
-                <a href="#">CompanyLogo</a>
+                <a href="#"><img src="logo.png" alt="OM-FT" style="width:32px; height:32px;  vertical-align:middle; margin-right: 8px;">OMNI Financial Technologies</a>
             </div>
             <ul class="nav-links">
                 <li><a class="disabled" href="#home">Home</a></li>
@@ -126,13 +136,26 @@
         </section>
         <section id="about">
             <h2>About Us</h2>
-            <p>OMNI Financial Technologies is a cutting-edge financial technology company dedicated to revolutionizing the quantitative tools used in the financial industry. At OMNI, we utilize the power of Microsoft to provide innovative, secure, and user-friendly quantitative tools through Excel, Teams, and Azure.</p>
+            <p>OMNI Financial Technologies is a cutting-edge financial technology company dedicated to revolutionizing
+                the quantitative tools used in the financial industry. At OMNI, we utilize the power of Microsoft to
+                provide innovative, secure, and user-friendly quantitative tools through Excel, Teams, and Azure.</p>
         </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have any questions? Feel free to reach out to us. We are here to help!</p>
-        <p><strong>Email:</strong> <a href="mailto:Info@OmniRisks.com">Info@OmniRisks.com</a></p>
-    </section>
+        <section id="coming-soon">
+            <h2>Coming Soon</h2>
+            <p>Our website is currently under construction. Please check back soon for updates!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Feel free to reach out to us. We are here to help!</p>
+            <!-- <p><strong>Phone:</strong> <a href="tel:+12127846487">+1 (212) 784-6487</a></p> -->
+            <p><strong>Email:</strong> <a href="mailto:Info@OmniRisks.com">Info@OmniRisks.com</a></p>
+            <!-- <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/company/yourcompany" target="_blank">
+                <img src="https://logospng.org/download/linkedin/logo-linkedin-icon-2048.png" alt="LinkedIn" style="width:24px; height:24px; vertical-align:middle;">
+            </a>
+        </p> -->
+        </section>
 
     </div>
 
@@ -143,4 +166,5 @@
         </div>
     </footer>
 </body>
+
 </html>
